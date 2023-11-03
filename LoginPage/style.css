@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body {
+    margin: 0;
+    background:  #F50057;  
+    
+}
+
+.container {
+    position: absolute;
+    width: 43%;
+    height: 70%;
+    left: 30%;
+    top: 15%;
+    box-shadow: 5px 5px 35px 5px;
+  
+}
+
+
+.forgotPassword {
+    font-size: 13px;
+    display: flex;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    color: #979797;
+}
+
+
+a:hover {
+    color: black;
+}
+
+.profileIcon {
+    position: relative;
+    left: 36%;
+    top: 6%;
+}
+
+.usernameIcon {
+    position: absolute;
+    right: 105%;
+    
+}
+
+.passwordIcon {
+    position: absolute;
+    right: 105%;
+
+}
+
+.containerPicture {
+   height: 100%;
+   position: absolute;
+}
+
+.loginContainer {
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    
+}
+
+
+
+h5 {
+    position: relative;
+    font-size: 0.9rem;
+    top: 40px;
+    color: #979797;
+
+}
+
+#label {
+    transition: transform 0.5s;
+}
+
+#labelPassword {
+    transition: transform 0.5s;
+    
+}
+
+.registerDiv {
+    font-size: 14px;
+    font-family: 'Poppins', 'sans-serif';
+    top: -20px;
+    position: relative;
+
+}
+
+.registerDiv a {
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color: gray;
+}
+
+
+
+h2 {
+    position: absolute;
+    top: 100px;
+    left: 23%;
+    font-size: 1.9rem;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #d9d9d9;
+    outline: none;    
+    font-size: 1.1em;
+    
+}
+
+
+
+.loginContainer input:focus  {
+    border-bottom: 2px solid #F50057;
+    transition: 0.9s;
+}
+
+
+
+
+.login {
+    background:  #F50057;  
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 25px;
+    margin: 2rem 0;
+    background-image: linear-gradient(to right, #fa236e, #F50057, #c71251);
+    
+}
+
